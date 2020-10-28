@@ -4,7 +4,7 @@
     $searchElement = 5;
     $arrayIndex = 0;
 
-    if(is_int($searchElement)){
+    if(is_int($searchElement)) {
         foreach($array as $index => $value) {
             if($searchElement == $value) {
                 $count++;
