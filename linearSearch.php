@@ -1,7 +1,9 @@
 <?php 
+    // Linear Search Program
+
     $array = array (7 , 6 , 4 , 5 , 8 , 2 , 1);
     $count = 0;
-    $searchElement = 5;
+    $searchElement = 5; // element to be searched
     $arrayIndex = 0;
 
     if (is_int($searchElement)) {
