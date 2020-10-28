@@ -1,4 +1,6 @@
 <?php
+    // Polymorphism Whitout Method overloading
+
     function addition($num1 ,$num2) {
 
         if (is_int($num1) == 1 && is_int($num2) == 1 ) {
@@ -46,7 +48,7 @@
         }
     }
    
-    $result = addition(4 , "hguyg" );
+    $result = addition(4 , "hguyg" ); // function calling 
     echo "The result of following operation is : $result";
 ?>
 
